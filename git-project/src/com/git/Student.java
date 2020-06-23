@@ -10,7 +10,6 @@ public class Student {
 
 		return id + 10;
 
-		
 
 	}
 	public void setId(int id) {
@@ -23,7 +22,7 @@ public class Student {
 		this.username = username;
 	}
 	public String getPassword() {
-		return password;
+		return password+102;
 	}
 	public void setPassword(String password)  {
 		this.password = password;
