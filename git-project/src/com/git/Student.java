@@ -7,7 +7,7 @@ public class Student {
 	private String password;
 	
 	public int getId() {
-		return id + 100;
+		return id + 10;
 	}
 	public void setId(int id) {
 		this.id = id;
@@ -21,7 +21,7 @@ public class Student {
 	public String getPassword() {
 		return password;
 	}
-	public void setPassword(String password) {
+	public void setPassword(String password)  {
 		this.password = password;
 	}
 }
