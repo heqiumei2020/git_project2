@@ -7,7 +7,14 @@ public class Student {
 	private String password;
 	
 	public int getId() {
+<<<<<<< HEAD
 		return id + 10;
+=======
+
+		return id + 10;
+
+
+>>>>>>> branch 'master' of https://github.com/huangbangyi2019/git_project2.git
 	}
 	public void setId(int id) {
 		this.id = id;
@@ -19,9 +26,9 @@ public class Student {
 		this.username = username;
 	}
 	public String getPassword() {
-		return password;
+		return password+102;
 	}
-	public void setPassword(String password) {
+	public void setPassword(String password)  {
 		this.password = password;
 	}
 }
