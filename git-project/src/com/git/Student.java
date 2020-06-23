@@ -7,7 +7,11 @@ public class Student {
 	private String password;
 	
 	public int getId() {
+
 		return id + 10;
+
+		
+
 	}
 	public void setId(int id) {
 		this.id = id;
