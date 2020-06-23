@@ -7,7 +7,10 @@ public class Student {
 	private String password;
 	
 	public int getId() {
+
 		return id + 50;
+
+>>>>>>> branch 'master' of https://github.com/huangbangyi2019/git_project2.git
 	}
 	public void setId(int id) {
 		this.id = id;
