@@ -6,7 +6,7 @@ public class Teacher {
 	private String name;
 	
 	public int getId() {
-		return id;
+		return id + 100;
 	}
 	public void setId(int id) {
 		this.id = id;
