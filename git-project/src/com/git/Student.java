@@ -6,7 +6,7 @@ public class Student {
 	private String username;
 	private String password;
 	public int getId() {
-		return id + 100;
+		return id + 1;
 	}
 	public void setId(int id) {
 		this.id = id;
